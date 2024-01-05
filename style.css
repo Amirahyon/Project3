@@ -1,0 +1,158 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f8ebe9;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    width: 62%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 5px 10px #d6a394;
+}
+
+.image{
+    background-image: url(./Images/background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    padding: 25px 0 0 25px;
+}
+
+.arrow-back{
+    height: 15px;
+    padding-bottom: 1px;
+    color: #506b8e;
+}
+
+.back{
+    padding-left: 8px;
+    font-size: 12px;
+    color:#6781a1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content{
+    padding: 20px 30px 5rem 30px;
+    background-color: white;
+    width: 70%;
+}
+
+nav{
+    width: 100%;
+    align-items: flex-end;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav ul{
+    font-size: 10px;
+    font-weight: 600;
+    display: flex;
+    gap: 20px;
+    justify-content:flex-end;
+    color: #9d9d9d;
+    list-style-type: none;
+}
+
+.spain{
+    color: black;
+}
+
+.two{
+    display: flex;
+    align-items: flex-end;
+    width: 80%;
+}
+
+h1{
+    padding-top: 30px;
+    font-size: 50px;
+    font-weight: 500;
+    height: 110px;
+}
+
+.space{
+    border: 2px solid black;
+    height: 1px;
+    width: 170px;
+    margin-bottom: 25px;
+}
+
+.three{
+    padding-top: 5px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.four{
+    display: flex;
+    height: 10.2rem;
+    width: 100%;
+    gap: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.a{
+    margin: 20px 0 0 0;
+    height: 110%;
+    width: 70%;
+}
+
+.img{
+    background-image: url(./Images/preview.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 65px;
+}
+
+.play{
+    height:35px;
+    width:35px;
+    padding: 5px;
+    background-color: #fcf5f9;
+    border-radius: 50%;
+}
+
+.five{
+    width: 70%;
+    display: flex;
+    vertical-align: middle;
+}
+
+.view{
+    width: 90%;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.b{
+    width: 100%;
+    padding: 0 50px 0 0;
+    line-height: 25px;
+    font-size: 13px;
+}
+
+.arrow-forward{
+    width: 13%;
+}
