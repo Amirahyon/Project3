@@ -36,6 +36,7 @@ main{
 
 .arrow-back{
     height: 15px;
+    padding-top: 3px;
     padding-bottom: 1px;
     color: #506b8e;
 }
